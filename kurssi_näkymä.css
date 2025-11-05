@@ -1,0 +1,81 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #1e3d59;
+}
+
+h1 {
+    background-color: #1e3d59;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #1e3d59;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    margin: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 8px 20px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+    background-color: #e9f2ff;
+}
+
+.course-info {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.course-info p {
+    margin: 8px 0;
+}
+
+p a {
+    display: inline-block;
+    background-color: #1e3d59;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+p a:hover {
+    background-color: #163147;
+}
